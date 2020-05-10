@@ -67,7 +67,7 @@ int main() {
     switch (op) {
 
     case 1:
-        printf("Enter integer number between 1~45.\n");
+        printf("Enter integer number among 1~45.\n");
         for (i = 0; i < SIZE; i++) {
             printf("Enter [%d] number: ", i + 1);
             scanf_s("%d", &num);
