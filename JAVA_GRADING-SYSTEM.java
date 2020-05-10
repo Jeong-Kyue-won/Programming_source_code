@@ -24,7 +24,7 @@
 
 import java.util.Scanner;
 
-public class 정규원 {
+public class Code0 {
 
     static final int STUDENT_NUMBER = 10; // 위치 중요. Main일 경우는 static 생략
     static final int ITEM_NUMBER = 10;
@@ -91,7 +91,7 @@ public class 정규원 {
     }
 
     public static void initializeData(String[] s, String[] c, int[][] r){
-        String strSt = "김재연 고예림 곽다은";
+        String strSt = "홍길동 김영희 김철수";
         String strCo = "Hw1 Hw2 Quiz1 Exam1";
         String strRec = "20 25 10 85 18 24 10 790 21 20 12 100";
         Scanner inputSt = new Scanner(strSt);
